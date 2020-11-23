@@ -1,4 +1,4 @@
-<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>110</x><y>150</y><w>350</w><h>190</h></coordinates><panel_attributes>Partecipante
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>110</x><y>170</y><w>350</w><h>190</h></coordinates><panel_attributes>Partecipante
 --
 #String nome
 #Boolean TestaDiSerie
@@ -10,4 +10,4 @@
 +String toString ()
 --
 Responsibilities
-Inizializzarmi il partecipante e dire se è testa di serie o meno</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+Inizializzarmi il partecipante e dire se è testa di serie.</panel_attributes><additional_attributes></additional_attributes></element></diagram>
