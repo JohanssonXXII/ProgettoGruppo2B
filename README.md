@@ -4,4 +4,4 @@
 
 * Omari (Leader Supremo) , Pancaldi , Ottaiano e Vandelli ruoli in assegnazione.
 
-* Useremo NetBeans , per gli UML useremo un plugin di NetBeans chiamato EasyUML.
+* Useremo NetBeans , per gli UML useremo Umletino
