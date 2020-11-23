@@ -1,4 +1,4 @@
-# TemplateProgetto
+# Progetto Eliminazione Diretta 2B
 
 * Progetto difficile ma non ci abbatteremo!
 
