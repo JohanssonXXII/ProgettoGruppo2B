@@ -1,7 +1,6 @@
 # TemplateProgetto
 
-* Cambiare il nome del progetto. 
-* Copiare la descrizione del progetto
+* Progetto difficile ma non ci abbatteremo!
 
 * Omari (Leader Supremo) , Pancaldi , Ottaiano e Vandelli ruoli in assegnazione.
 
