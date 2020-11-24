@@ -1,0 +1,38 @@
+<diagram program="umletino" version="14.3.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>420</x><y>240</y><w>370</w><h>190</h></coordinates><panel_attributes>Partecipante
+--
+#String nome
+#String cognome
+#Int TestaDiSerie
+
+--
++Partecipante(String nome,Boolean TestaDiSerie)
++String getNome(String nome)
++Boolean getTestaDiSerie(Int TestaDiSerie)
++String toString ()
+--
+Responsibilities
+Inizializzarmi il partecipante e impostare se è testa di serie o meno
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>940</x><y>260</y><w>370</w><h>180</h></coordinates><panel_attributes>TabelloneDa64
+--
+#Partecipante[64]
+#MiniTabellone[1][8]
+
+--
++String CreazioneTabellone(Partecipante[64],MiniTabellone[1][8])
++CondizioniTabellone(Partecipante[64])
++SvolgimentoTorneo()
++AssegnazioneRisultato()
+--
+Responsibilities
+Restituire mini-tabelloni con le diverse condizioni imposte</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>780</x><y>320</y><w>180</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;.</panel_attributes><additional_attributes>10;10;160;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>960</x><y>560</y><w>290</w><h>170</h></coordinates><panel_attributes>TabelloneNormale
+--
+#Partecipanti[]
+#Tabellone[1][8]
+--
++String CreazioneTabellone(Partecipante[])
++CondizioniTabellone(Partecipante[])
++SvolgimentoTorneo()
++AssegnazioneRisultato()
+--
+Responsibilities
+Restituirmi tabellone adatto con il numero di partecipanti</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>1090</x><y>430</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element></diagram>
