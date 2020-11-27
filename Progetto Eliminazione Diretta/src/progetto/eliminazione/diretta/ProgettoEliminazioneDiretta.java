@@ -18,7 +18,7 @@ public class ProgettoEliminazioneDiretta {
         Inserimento Partecipantiarray[] = new Partecipante[64];
         
         Partecipante aimen = new Partecipante("Aimen","Omari",1);
-        
+        Inserimento.i
        
        
         
