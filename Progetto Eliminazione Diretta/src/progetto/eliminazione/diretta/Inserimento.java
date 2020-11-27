@@ -10,5 +10,12 @@ package progetto.eliminazione.diretta;
  * @author Aimen
  */
 public class Inserimento {
+    Partecipante partecipanti[];
+
+    public Inserimento(Partecipante[] partecipanti) {
+        this.partecipanti = partecipanti;
+    }
+
+    
     
 }
