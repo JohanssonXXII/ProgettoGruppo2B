@@ -15,7 +15,14 @@ public class ProgettoEliminazioneDiretta {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Inserimento[] contenitore = new Inserimento(contenitore[64]);
+        Inserimento Partecipantiarray[] = new Partecipante[64];
+        
+        Partecipante aimen = new Partecipante("Aimen","Omari",1);
+        
+       
+       
+        
+        
     }
     
 }

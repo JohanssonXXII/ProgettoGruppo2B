@@ -10,11 +10,22 @@ package progetto.eliminazione.diretta;
  * @author Aimen
  */
 public class Inserimento {
-    Partecipante partecipanti[];
-
-    public Inserimento(Partecipante[] partecipanti) {
-        this.partecipanti = partecipanti;
+    Partecipante array[];
+    
+    public Inserimento() {
     }
+    
+    public boolean inserisci (int posizione,Partecipante partecipante){
+        if(array[posizione]==null){
+            array[posizione]=partecipante;
+            return true;
+        }
+        return false;
+    }
+    
+    
+
+    
 
     
     
