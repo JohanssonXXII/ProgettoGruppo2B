@@ -10,5 +10,18 @@ package torneo.pkgfinal.build;
  * @author Aimen
  */
 public class Salvataggio {
-    
+	public static void printToFile(ArrayList<InserimentoGiocatori> list) throws IOException {
+		FileWriter fwriter = new FileWriter("Resoconto.txt");
+		int count = 1;
+		for (InserimentoGiocatori data : list) {
+			fwriter.write("Round "+count+" - ");
+			fwriter.write(data.toString());
+			fwriter.write("\n");
+			count++;
+		}
+		fwriter.close();
+	}
+
 }
+    
+
