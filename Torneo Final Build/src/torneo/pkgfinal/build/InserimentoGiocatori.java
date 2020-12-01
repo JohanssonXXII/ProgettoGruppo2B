@@ -11,19 +11,19 @@ import java.util.ArrayList;
  */
 public class InserimentoGiocatori {
     
-    protected ArrayList<PARTECIPANTE> list;
+    protected ArrayList<Partecipante> list;
 	
 	public InserimentoGiocatori() {
 		super();
-		this.list = new ArrayList<PARTECIPANTE>();
+		this.list = new ArrayList<Partecipante>();
 	}
 	
 
-	public ArrayList<PARTECIPANTE> getList() {
+	public ArrayList<Partecipante> getList() {
 		return list;
 	}
 
-	public void setList(ArrayList<PARTECIPANTE> list) {
+	public void setList(ArrayList<Partecipante> list) {
 		this.list = list;
 	}
     

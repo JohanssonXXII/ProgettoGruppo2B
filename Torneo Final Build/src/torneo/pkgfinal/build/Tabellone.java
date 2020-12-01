@@ -1,5 +1,9 @@
+package torneo.pkgfinal.build;
+
 import java.util.ArrayList;
 import java.util.*;
+
+
 public class Tabellone {
 	protected static int count = 0;
 	
