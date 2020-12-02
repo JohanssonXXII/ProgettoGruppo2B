@@ -27,7 +27,19 @@ public class InserimentoGiocatori {
 		this.list = list;
 	}
     
-    
+    public void addParticepant(PARTECIPANTE p) {
+		list.add(p);
+	}
+
+    @Override
+    public String toString() {
+        return "InserimentoGiocatori{" + "list=" + list + '}';
+    }
+        
+	
+	
+
+}
     
     
     
