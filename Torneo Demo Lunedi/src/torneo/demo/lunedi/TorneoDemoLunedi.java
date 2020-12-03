@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package torneo.pkgfinal.build;
+package torneo.demo.lunedi;
 
 /**
  *
  * @author Aimen
  */
-public class TorneoFinalBuild {
+public class TorneoDemoLunedi {
 
     /**
      * @param args the command line arguments

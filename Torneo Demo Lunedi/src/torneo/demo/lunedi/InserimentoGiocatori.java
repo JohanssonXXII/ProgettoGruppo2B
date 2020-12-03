@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package torneo.pkgfinal.build;
+package torneo.demo.lunedi;
 import java.util.ArrayList;
+
 /**
  *
  * @author Aimen
@@ -27,7 +28,7 @@ public class InserimentoGiocatori {
 		this.list = list;
 	}
     
-    public void addParticepant(PARTECIPANTE p) {
+    public void addParticepant(Partecipante p) {
 		list.add(p);
 	}
 
@@ -48,4 +49,3 @@ public class InserimentoGiocatori {
     
 
     
-}
