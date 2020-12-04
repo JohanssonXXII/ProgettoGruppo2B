@@ -28,6 +28,32 @@ public class Tabellone {
 		int i =0;
 		int s = j;
 
+                  while(i < j) {
+			System.out.println("Match numero "+(count+1)+"  "+list.get(i) +" e " +list.get(j));
+			System.out.println("Inserisci Risultato per "+list.get(i)+" : ");
+			int s1 = input.nextInt();
+			System.out.println("Inserisci risultato per "+list.get(j)+" : ");
+			int s2 = input.nextInt();
+			if(s1 > s2) {
+				System.out.println("Il vincitore è : "+list.get(i));
+				System.out.println();
+				toReturn.addParticepant(list.get(i));
+			}else {
+				System.out.println("Il vincitore è : "+list.get(j));
+				System.out.println();
+				toReturn.addParticepant(list.get(j));
+			}
+			i++;
+			j--;
+			count++;
+		}	
+		
+		for(int i1 = s+1 ; i1 < list.size() ; i1++) {
+			toReturn.addParticepant(list.get(i1));
+		}
+		
+		return toReturn;
+	}
 
 
 
