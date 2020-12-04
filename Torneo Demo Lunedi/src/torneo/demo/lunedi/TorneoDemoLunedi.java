@@ -58,6 +58,7 @@ public class TorneoDemoLunedi {
                 
                 } catch(IOException i){              
                 }
+                    System.out.println("Giocatori Salvati");
                 }
                         
                 
