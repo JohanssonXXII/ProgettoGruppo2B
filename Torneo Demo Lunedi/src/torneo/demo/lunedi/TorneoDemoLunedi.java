@@ -12,6 +12,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
+ *MANCA TUTTO IL JAVADOC (ma vedi anche commento in inserimentoGiocatori
+ * Questa cartella ha gli apici nel nome...voluto?
  *
  * @author Aimen
  */
