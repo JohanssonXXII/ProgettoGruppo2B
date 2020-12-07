@@ -16,10 +16,10 @@ import java.util.*;
 public class Tabellone {
 	protected static int count = 0;
 	
-	public static InserimentoGiocatori Tournament(InserimentoGiocatori obj) {
+	public static GestioneGiocatori Tournament(GestioneGiocatori obj) {
 		
 		ArrayList<Partecipante> list = obj.getList();
-		InserimentoGiocatori toReturn = new InserimentoGiocatori();
+		GestioneGiocatori toReturn = new GestioneGiocatori();
 		Scanner input = new Scanner(System.in);
 		int length = list.size();
 		int j = (int) Math.floor((int)(Math.log(length) / Math.log(2)));
@@ -51,6 +51,9 @@ public class Tabellone {
 		for(int i1 = s+1 ; i1 < list.size() ; i1++) {
 			toReturn.addParticepant(list.get(i1));
 		}
+                
+              
+                       
 		
 		return toReturn;
 	}

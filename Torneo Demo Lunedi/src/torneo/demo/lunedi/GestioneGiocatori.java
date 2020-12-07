@@ -10,11 +10,11 @@ import java.util.ArrayList;
  *
  * @author Aimen
  */
-public class InserimentoGiocatori {
+public class GestioneGiocatori {
     
     protected ArrayList<Partecipante> list;
 	
-	public InserimentoGiocatori() {
+	public GestioneGiocatori() {
 		super();
 		this.list = new ArrayList<Partecipante>();
 	}

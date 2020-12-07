@@ -15,10 +15,15 @@ import java.util.ArrayList;
 
 
 public class Salvataggio {
-	public static void printToFile(ArrayList<InserimentoGiocatori> list) throws IOException {
+    /**
+     * Classe che se richiamate permette si stampare il resoconto del torneo in un file txt esterno
+     * @param list
+     * @throws IOException 
+     */
+	public static void printToFile(ArrayList<GestioneGiocatori> list) throws IOException {
 		FileWriter fwriter = new FileWriter("Resoconto.txt");
 		int count = 1;
-		for (InserimentoGiocatori data : list) {
+		for (GestioneGiocatori data : list) {
 			fwriter.write("Round "+count+" - ");
 			fwriter.write(data.toString());
 			fwriter.write("\n");

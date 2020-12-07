@@ -13,11 +13,17 @@ public class Partecipante {
 	private String fName;
 	private String sName;
 	
+                /**
+         * Costruttore partecipante serve per inizializare il partecipante
+         *
+         * @return 
+         */
 	public Partecipante(String fName, String sName) {
 		super();
 		this.fName = fName;
 		this.sName = sName;
 	}
+
 	public String getfName() {
 		return fName;
 	}

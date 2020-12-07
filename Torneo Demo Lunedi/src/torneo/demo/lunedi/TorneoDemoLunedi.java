@@ -21,13 +21,13 @@ public class TorneoDemoLunedi {
      * @param args the command line arguments
      */
     public static void main(String[] args) throws IOException {
-        ArrayList<InserimentoGiocatori> listaPlayer = new ArrayList<InserimentoGiocatori>();
+        ArrayList<GestioneGiocatori> listaPlayer = new ArrayList<GestioneGiocatori>();
             Scanner in = new Scanner (System.in);
-            System.out.println("In che lingua vuoi utilizzare il programma?\n 1 per Italiano 2 per Inglese");
+            System.out.println("In che lingua vuoi utilizzare il programma?\n1 per Italiano 2 per Inglese");
             int selezionelingua = in.nextInt();
 
             if(selezionelingua==1){
-                InserimentoGiocatori obj = new InserimentoGiocatori();
+                GestioneGiocatori obj = new GestioneGiocatori();
 		Scanner input = new Scanner(System.in);
 		System.out.println("Inserisci il numero di giocatori : ");
 		int players = input.nextInt();
@@ -65,7 +65,7 @@ public class TorneoDemoLunedi {
                 
                 
 		listaPlayer.add(obj);
-		InserimentoGiocatori res = obj;
+		GestioneGiocatori res = obj;
                 
                 if(players <= 1){
                     System.out.println("Non si può svolgere un torneo con una sola persona");
@@ -97,7 +97,7 @@ public class TorneoDemoLunedi {
                 
             }
             else if(selezionelingua==2){
-                InserimentoGiocatori obj = new InserimentoGiocatori();
+                GestioneGiocatori obj = new GestioneGiocatori();
 		Scanner input = new Scanner(System.in);
                 
 		System.out.println("Please put the number of challengers : ");
@@ -112,7 +112,7 @@ public class TorneoDemoLunedi {
 			obj.addParticepant(new Partecipante(fname,sname));
 		}
 		listaPlayer.add(obj);
-		InserimentoGiocatori res = obj;
+		GestioneGiocatori res = obj;
                 
                 if(players <= 1){
                     System.out.println("The tournament can't start with only one person");
@@ -140,6 +140,9 @@ public class TorneoDemoLunedi {
 		}
 		
 		Salvataggio.printToFile(listaPlayer);
+               
+                       
+                
             }
     }
     
