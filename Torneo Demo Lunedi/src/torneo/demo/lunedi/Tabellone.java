@@ -16,7 +16,14 @@ import java.util.*;
 public class Tabellone {
 	protected static int count = 0;
 	
+        /**
+         * 
+         * @param obj
+         * è una metodo che inizializza il torneo , l'input e l'output sono necessari per gestire il torneo in questa classe , recupera la lista dei challenger e fa partire il torneo
+         * @return return
+         */
 	public static GestioneGiocatori Tournament(GestioneGiocatori obj) {
+            
 		
 		ArrayList<Partecipante> list = obj.getList();
 		GestioneGiocatori toReturn = new GestioneGiocatori();
