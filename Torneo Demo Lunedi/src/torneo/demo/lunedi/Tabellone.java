@@ -13,14 +13,22 @@ import java.util.ArrayList;
 import java.util.*;
 
 
-public class Tabellone {
+/**
+ * Classe che fa partire il torneo e permette di inserire i risultati
+ * @author Aimen
+ */
+public class Tabellone{
+        /**
+         * è un variabile statica che segue il conteggio della partite
+         */
 	protected static int count = 0;
+        
 	
         /**
          * 
          * @param obj
          * è una metodo che inizializza il torneo , l'input e l'output sono necessari per gestire il torneo in questa classe , recupera la lista dei challenger e fa partire il torneo
-         * @return return
+         * @return toReturn
          */
 	public static GestioneGiocatori Tournament(GestioneGiocatori obj) {
             

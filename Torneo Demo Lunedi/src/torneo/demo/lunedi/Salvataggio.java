@@ -5,18 +5,18 @@
  */
 package torneo.demo.lunedi;
 
-/**
- *
- * @author Aimen
- */
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
-
+/**
+ * Classe che si occupa del salvataggio su file esterno , perlopiù dei casi in TXT. il file una volta finita l'esecuzione di trova nella cartella del progetto
+ * @author Aimen
+ */
 public class Salvataggio {
     /**
-     * Classe che se richiamate permette si stampare il resoconto del torneo in un file txt esterno
+     * Metodo che se richiamato permette si stampare il resoconto del torneo in un file txt esterno
      * @param list
      * @throws IOException 
      */

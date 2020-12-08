@@ -6,7 +6,7 @@
 package torneo.demo.lunedi;
 
 /**
- *
+ * Questa classe , è il partecipante del torneo , è una classe importante per l'inizio del torneo.
  * @author Aimen
  */
 public class Partecipante {

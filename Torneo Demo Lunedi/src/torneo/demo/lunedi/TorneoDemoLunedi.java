@@ -12,8 +12,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
- *MANCA TUTTO IL JAVADOC (ma vedi anche commento in inserimentoGiocatori
- * Questa cartella ha gli apici nel nome...voluto?
+ *
+ *
+ * Il main permette di scegliere la lingua in cui si vuole eseguire il programma(ancora in alpha) e si usa la classe GestionePartecipanti che mi permette di inserire partecipanti e poi
+ * uso la classe Tabellone che fa partire
  *
  * @author Aimen
  */
@@ -27,7 +29,9 @@ public class TorneoDemoLunedi {
             Scanner in = new Scanner (System.in);
             System.out.println("In che lingua vuoi utilizzare il programma?\n1 per Italiano 2 per Inglese");
             int selezionelingua = in.nextInt();
-
+            /**
+             * Permettiamo all'utente di scegliere la lingua.
+             */
             if(selezionelingua==1){
                 GestioneGiocatori obj = new GestioneGiocatori();
 		Scanner input = new Scanner(System.in);

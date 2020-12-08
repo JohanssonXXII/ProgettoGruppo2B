@@ -7,7 +7,7 @@ package torneo.demo.lunedi;
 import java.util.ArrayList;
 
 /**
- *
+ *  Classe che si occupa della management dei giocatori , permette di inserire un giocatore nella lista , rimuoverlo , visualizzarlo e visualizzare la lista.
  * @author Aimen
  */
 public class GestioneGiocatori {
@@ -46,8 +46,8 @@ public class GestioneGiocatori {
 		list.add(p);
 	}
     /**
-     * 
-     * @return 
+     * Metodo che permette di visualizzare la lista dei partecipanti
+     * @return "InserimentoGiocatori{" + "list=" + list + '}';
      */
     @Override
     public String toString() {
