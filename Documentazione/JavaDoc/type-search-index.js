@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","u":"allclasses-index.html"},{"p":"torneo.demo.lunedi","l":"GestioneGiocatori"},{"p":"torneo.demo.lunedi","l":"Partecipante"},{"p":"torneo.demo.lunedi","l":"Salvataggio"},{"p":"torneo.demo.lunedi","l":"Tabellone"},{"p":"torneo.demo.lunedi","l":"TorneoDemoLunedi"}];updateSearchResults();
